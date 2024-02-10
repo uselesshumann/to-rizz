@@ -1,0 +1,135 @@
+/* import the font from google */
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+/* removing default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* styling the body */
+body {
+  width: "100%";
+  min-height: 100vh;
+  padding: 0 2rem;
+
+  /* add the background color */
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.896796218487395) 0%,
+    rgba(255, 0, 151, 0.09567577030812324) 100%
+  );
+
+  /* center the children elements */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* styling the container */
+.container {
+  /* center the elements */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* styling the image */
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Styling the text */
+h1 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: rgb(255, 0, 200);
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* styling the button */
+button {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border: none;
+  border-radius: 5px;
+
+  padding: 8px 20px;
+  margin: 5px;
+
+  color: #ffff;
+
+  font-size: 16px;
+  font-weight: 500;
+
+  cursor: pointer;
+}
+
+/* button container style */
+.button_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* button hover style */
+button:hover {
+  filter: brightness(0.9);
+}
+
+/* `yes` button style */
+.yes_button {
+  background-color: #22c55e;
+}
+
+button.yes_button_1 {
+  font-size: 18px;
+  padding: 10px 22px;
+  background-color: #22c55e;
+}
+
+button.yes_button_2 {
+  font-size: 22px;
+  padding: 14px 24px;
+  font-weight: bold;
+  background-color: #22c55e;
+}
+
+button.yes_button_3 {
+  font-size: 50px;
+  padding: 10px 22px;
+  font-weight: bold;
+  background-color: #22c55e;
+}
+
+button.yes_button_4 {
+  font-size: 70px;
+  padding: 10px 32px;
+  font-weight: bold;
+  background-color: #22c55e;
+}
+
+button.yes_button_5 {
+  font-size: 90px;
+  padding: 10px 32px;
+  font-weight: bold;
+  background-color: #22c55e;
+}
+
+/* `no` button style */
+.no_button {
+  background-color: #e65776;
+}
+
+/* hidden class style */
+.hidden {
+  display: none;
+}
